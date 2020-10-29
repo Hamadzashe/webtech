@@ -1,0 +1,50 @@
+
+{% load static %}
+{% block content %}
+      <!------------services------------->
+	<section id="services" style="background-image:linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.568)),url({% static 'img/services.jpg' %});">
+		<div class="container">
+			<h1>Our Services</h1>
+		</div>
+		<div class="row services">
+			<div class="col-md-3 text-center">
+				<div class="icon">
+					<i class="fa fa-desktop"></i>
+				</div>
+				<h3>Web Designing</h3>
+				<p>All of our websites are created using new technology and
+				they are responsible to suit any browser for as little as a 
+			mobile phone to ad big as a laptop.</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+					<i class="fas fa-laptop-code"></i>
+				</div>
+				<h3>Web App Development</h3>
+				<p>All your business applications are developed here with the best 
+				quality, user friendly and also responsive to every screen and sizes.</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+					<i class="fas fa-palette"></i>
+				</div>
+				<h3>Graphics Designing</h3>
+				<p>Be it posters, business cards, company profiles, logos, just 
+					name it and its done. We offer best quality designs nation wide at 
+					an affordable price. Our products are internation level.
+				</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="icon">
+					<i class="fab fa-wordpress"></i>
+				</div>
+				<h3>WordPress</h3>
+				<p>We are very much aware of the new technology on the 
+					markert and we know how to use it to boost up 
+					your business in terms of driving trafic.
+				</p>
+			</div>
+		</div>
+	</section>	
+      
+{% endblock %}
